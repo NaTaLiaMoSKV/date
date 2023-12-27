@@ -1,0 +1,52 @@
+body {
+    font-family: 'Rubik Doodle Shadow';
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #f2adad;
+}
+
+.button_container {
+    width: 400px;
+}
+
+.btn {
+    margin: 40px 30px 0;
+    padding: 10px 30px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    color: white;
+    box-shadow: 1px 1px 3px #992323;
+    background-color: #f2adad;
+    transition: all 150ms linear;
+}
+
+.cat_image {
+    padding-right: 60px;
+}
+
+.btn:hover,
+.btn:focus {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 3px #7e0808;
+}
